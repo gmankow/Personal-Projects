@@ -1,0 +1,30 @@
+Wavetronix sensors are fixed location traffic data collectors that collects traffic volumes and mean speeds for every 20 to 60 seconds at deployed locati
+
+Breif field definitions are as follows:
+owner-id	: Q Free
+network-id	: Q Free
+date		: Date 
+time		: Time
+utc-offset	: Offset from UTC
+start-ime	: Starting time for vehicle records
+end-time	: Ending time for vehicle records
+detector-id	: Unique ID for each sensor (Sub divided into direction (NB, EB, SB and WB) and lanes (RL (Right Lane), LL, CL)
+status		: Working Status of the sensor
+lane-id		: Unique id for lane 
+lane-count	: Total Number of vehicles in a lane counted by sensor in sample period
+lane-occupancy	: Total occupancey calculated in sample period
+lane-speed	: Time mean speed of vehicles in sample period
+small-class-count	: Count of small size vehicles typically cars
+medium-class-count	:Count of Medium size vehicles typically vans 
+large-class-count	: Count of large size vehicles typically trucks
+device-id	: Similiar numerical id like detector id for each lane 
+link-direction	: Direction of the counts
+detector-type	: Sensor type
+sample-period	: Period in which the vehicle counts are reported (Typically for every 20 or 60 secs)
+device-description	: Description
+cst-time	: Time converted CST	
+month		: Month
+day		: Day
+
+
+In the given file, the data from sensors deployed in POLK County (Covering Des Monines) in the month of Nov and Dec 2022 is availble.
