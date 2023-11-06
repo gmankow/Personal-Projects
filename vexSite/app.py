@@ -10,9 +10,13 @@ app = Flask(__name__)
 def home():
     return render_template("home.html")
 
-@app.route("/Our-Team")
+@app.route("/OurLeads")
 def bios():
     return render_template("bios.html")
+
+@app.route("/ContactUs")
+def contact():
+    return render_template("contact.html")
 
 
 
