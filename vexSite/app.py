@@ -18,6 +18,10 @@ def bios():
 def contact():
     return render_template("contact.html")
 
+@app.route("/Sponsors")
+def sponsors():
+    return render_template("sponsors.html")
+
 
 
 if __name__ == '__main__':
