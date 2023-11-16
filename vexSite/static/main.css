@@ -3,10 +3,11 @@
     background-color: #979595;
     padding: 20px;
     text-align: center;
-    background-image: url('header.jpg');
+    background-image: url('images/header.jpg');
     object-fit: contain;
     font-weight: bold;
-    margin-top: 45px;
+    margin-top: 17.5px;
+    margin-bottom: 5px;
 }
 
 .navbar {

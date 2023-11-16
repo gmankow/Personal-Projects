@@ -23,6 +23,5 @@ def sponsors():
     return render_template("sponsors.html")
 
 
-
 if __name__ == '__main__':
     app.run(host=IP, debug=True, port=8000)
