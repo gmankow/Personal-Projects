@@ -1,65 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>CY5</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="static/main.css">
-        <link rel="stylesheet" href="static/home.css">
-        <link rel="icon" href="static/images/favicon.png">
-        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    <body style="margin: 0;">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ISU Vex U</title>
+    <link rel="stylesheet" href="../static/dist/css/output.css" />
+  </head>
+  <header class="bg-white">
+    <div
+      class="w-full bg-cover bg-center"
+      style="
+        height: 34rem;
+        background-image: url(../static/dist/header_img.jpg);
+      "
+    >
+      <nav class="mx-auto flex items-center p-5">
+        <div class="flex-initial">
+          <img
+            src="../static/dist/robotics_logo.png"
+            alt="logo"
+            class="h-16 w-auto"
+          />
+        </div>
+        <div class="flex-grow">
+          <h1 class="text-red-600 text-2xl font-bold">VEX Robotics</h1>
+        </div>
+        <div class="flex gap-x-16">
+          <a
+            href="/vexSite/templates/home.html"
+            class="text-red-600 hover:text-red-800 text-2xl"
+            >Home</a
+          >
+          <a
+            href="/vexSite/templates/sponsors.html"
+            class="text-red-600 hover:text-red-800 text-2xl"
+            >Sponsors</a
+          >
+          <a
+            href="/vexSite/templates/contact.html"
+            class="text-red-600 hover:text-red-800 text-2xl"
+            >Contact</a
+          >
+          <a
+            href="https://www.stuorg.iastate.edu/auth/login?REDIR=/site/isuroboticsclub/join"
+            class="text-red-600 hover:text-red-800 text-2xl"
+            >Join</a
+          >
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div class="flex justify-center">
+    <h1 class="text-3xl font-bold text-black">
+      Our Program
+      <hr />
+      <br />
+    </h1>
+  </div>
+  <div class="flex flex-col items-center justify-center text-center">
+    <p class="text-xl text-gray-600 max-w-4xl">
+      The Iowa State VEX U Robotics Club is an Iowa State University Club that
+      strives to provide STEM opportunities and further STEM education to all
+      students regardless of level of knowledge or socioeconomic status. One
+      such avenue is through our competitive robotics team. We introduce and
+      foster students' knowledge of various soft skills (teamwork,
+      documentation, communication, networking, etc.) and hard skills (CAD,
+      programming, design). Robotics is a fun, engaging, and hands-on activity
+      where students of all skill levels will thrive! <br /><br />
 
-        <div class="header">
-            <!--<h1>Iowa State Vex Robotics</h1>-->
-        </div>
-        
-        <div class="navbar">
-            <a href="/"><img src="static/images/favicon.png" alt="Home" /></a>
-            <a href="/OurLeads">Meet The Team</a>
-            <a href="/ContactUs">Contact</a>
-            <a href="/Sponsors">Sponsors</a>
-            <a href="https://www.stuorg.iastate.edu/isuroboticsclub/information">Join</a>
-        </div>
+      The Iowa State VEX U Robotics Club prides itself on our ability to educate
+      members on and off the team. One such path is through High School
+      mentorship. Currently, the Iowa State Vex U Robotics Club actively mentors
+      high school teams to further educate and provide new and enriching
+      opportunities to students of all skill levels. <br /><br />
 
-        <div class="container_left">
-            <div class="media">
-                <img src="static/images/placeholderbot.png" alt="Teams">
-            </div>
-            <div class="description_left">
-                <h2>Test Title</h2>
-                <p>This is a test</p>
-            </div>
-        </div>
-        <div class="container_right">
-            <div class="media">
-                <img src="static/images/placeholderbot.png" alt="Teams">
-            </div>
-            <div class="description_right">
-                <h2>Test Title</h2>
-                <p>This is a test</p>
-            </div>
-        </div>
-        <div class="container_left">
-            <div class="media">
-                <img src="static/images/placeholderbot.png" alt="Teams">
-            </div>
-            <div class="description_left">
-                <h2>Test Title</h2>
-                <p>This is a test</p>
-            </div>
-        </div>
-        <div class="container_right">
-            <div class="media">
-                <img src="static/images/placeholderbot.png" alt="Teams">
-            </div>
-            <div class="description_right">
-                <h2>Test Title</h2>
-                <p>This is a test</p>
-            </div>
-        </div>
+      The Iowa State VEX U Robotics Club engages itself with numerous volunteer
+      opportunities. One such opportunity is through volunteering at VEX U
+      tournaments. VEX U tournaments rely heavily on volunteers to make events
+      successful and efficient. The Iowa State Vex U Robotics Team Prides Itself
+      greatly on our ability to volunteer at these events and beyond.
+      <br /><br />
+    </p>
+  </div>
+  <div class="flex justify-center">
+    <h1 class="text-3xl font-bold text-black">
+      What is Vex U
+      <hr />
+      <br />
+    </h1>
+  </div>
+  <div class="flex flex-col items-center justify-center text-center">
+    <p class="text-xl text-gray-600 max-w-4xl">
+      In VEX U, teams of college students design, build, and program robots to
+      compete in a specific game or challenge that changes each year. The
+      competition is organized by the Robotics Education & Competition (REC)
+      Foundation. Participants use the VEX EDR (Educational Design and Robotics)
+      platform, which includes a variety of hardware components, including the
+      VEX Robotics kits and electronics. <br /><br />
 
-        
-    </body>
+      Teams are required to strategize, collaborate, and innovate to create
+      robots that can perform specific tasks outlined in the competition game.
+      The VEX U competitions aim to foster creativity, problem-solving skills,
+      and teamwork among university students while providing hands-on experience
+      in robotics engineering. <br /><br />
+
+      Each year, the competition introduces a new game, and teams must adapt
+      their robots to meet the challenges posed by the game's objectives. This
+      dynamic aspect of the competition keeps participants engaged and
+      encourages them to continually improve their robot designs and programming
+      skills. VEX U competitions are part of a broader effort to promote STEM
+      (Science, Technology, Engineering, and Mathematics) education and provide
+      students with practical experience in engineering and robotics.
+      <br /><br />
+    </p>
+  </div>
 </html>
