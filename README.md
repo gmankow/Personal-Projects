@@ -1,2 +1,5 @@
 # ISU Projects
-Contains all the project I have worked on or am currently working on.
+Contains all the projects I have worked on or am currently working on.
+
+## DataV1
+Iowa State's First Datathon. Analyzed traffic data to find the average speed increase of cars near semi trucks. The project won 3rd place at the event.
