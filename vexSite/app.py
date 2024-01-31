@@ -6,6 +6,8 @@ IP = socket.gethostbyname(hostname)
 
 app = Flask(__name__)
 
+# Currently app.py doesn't work, to view pages use Live Server extension in VSCode on an html page
+
 @app.route("/")
 def home():
     return render_template("test.html")
