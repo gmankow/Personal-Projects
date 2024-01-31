@@ -8,20 +8,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return render_template("home.html")
-
-@app.route("/OurLeads")
-def bios():
-    return render_template("bios.html")
-
-@app.route("/ContactUs")
-def contact():
-    return render_template("contact.html")
-
-@app.route("/Sponsors")
-def sponsors():
-    return render_template("sponsors.html")
-
+    return render_template("test.html")
 
 if __name__ == '__main__':
     app.run(host=IP, debug=True, port=8000)

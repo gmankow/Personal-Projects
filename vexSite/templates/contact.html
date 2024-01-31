@@ -1,37 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>CY5</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="static/main.css">
-        <link rel="icon" href="static/images/favicon.png">
-        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    <body style="margin: 0;">
-        <div class="header">
-            <!--<h1>Contact Us</h1>-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ISU Vex U</title>
+    <link rel="stylesheet" href="../static/dist/css/output.css" />
+  </head>
+  <header class="bg-white">
+    <div
+      class="w-full bg-cover bg-center"
+      style="
+        height: 34rem;
+        background-image: url(../static/dist/header_img.jpg);
+      "
+    >
+      <nav class="mx-auto flex items-center p-5">
+        <div class="flex-initial">
+          <img
+            src="../static/dist/robotics_logo.png"
+            alt="logo"
+            class="h-16 w-auto"
+          />
         </div>
-
-        <div class="navbar">
-            <a href="/"><img src="static/images/favicon.png" alt="Home" /></a>
-            <a href="/OurLeads">Meet The Team</a>
-            <a href="/ContactUs">Contact</a>
-            <a href="/Sponsors">Sponsors</a>
-            <a href="https://www.stuorg.iastate.edu/isuroboticsclub/information">Join</a>
+        <div class="flex-grow">
+          <h1 class="text-red-600 text-2xl font-bold">VEX Robotics</h1>
         </div>
-
-        <div class="row">
-            <div class="side">
-                <h2>Side</h2>
-                <p>Long Description</p>
-            </div>
-            <div class="main">
-                <h2>Main</h2>
-                <p>Long Description</p>
-            </div>
+        <div class="flex gap-x-16">
+          <a
+            href="/vexSite/templates/home.html"
+            class="text-red-600 hover:text-red-800 text-2xl"
+            >Home</a
+          >
+          <a
+            href="/vexSite/templates/sponsors.html"
+            class="text-red-600 hover:text-red-800 text-2xl"
+            >Sponsors</a
+          >
+          <a
+            href="/vexSite/templates/contact.html"
+            class="text-red-600 hover:text-red-800 text-2xl"
+            >Contact</a
+          >
+          <a
+            href="https://www.stuorg.iastate.edu/auth/login?REDIR=/site/isuroboticsclub/join"
+            class="text-red-600 hover:text-red-800 text-2xl"
+            >Join</a
+          >
         </div>
-
-        
-    </body>
+      </nav>
+      <div class="flex justify-center items-center text-center h-1/2 w-full">
+        <h1 class="text-7xl font-bold text-red-600">Contact Us</h1>
+      </div>
+    </div>
+  </header>
+  <div class="flex flex-col items-center justify-center">
+    <h1 class="text-3xl font-bold text-black max-w-2xl text-center">
+      We would love to hear from you!
+    </h1>
+    <p class="text-xl text-center text-black max-w-96">
+      We are always looking for new members, sponsors, and those willing to
+      help. If you are interested in joining, sponsoring, or have any questions,
+      feel free to reach out.
+      <br />
+      <br />
+    </p>
+    <h1 class="text-xl text-blue-600 text-center">
+      <a href="mailto:cklop@iastate.edu"
+        >Feel free to email us at "cklop@iastate.edu" if you have questions.</a
+      >
+    </h1>
+  </div>
 </html>
