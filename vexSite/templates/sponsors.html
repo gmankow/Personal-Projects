@@ -12,10 +12,12 @@
       class="w-full bg-cover bg-center"
       style="
         height: 34rem;
-        background-image: url(../static/dist/header_img.jpg);
+        background-image: url(../static/dist/sponsors_header_img.jpg);
       "
     >
-      <nav class="mx-auto flex items-center p-5">
+      <nav
+        class="mx-auto flex items-center p-5 backdrop-brightness-50 backdrop-blur-sm"
+      >
         <div class="flex-initial">
           <img
             src="../static/dist/robotics_logo.png"
@@ -24,33 +26,37 @@
           />
         </div>
         <div class="flex-grow">
-          <h1 class="text-red-600 text-2xl font-bold">VEX Robotics</h1>
+          <h1 class="text-yellow-500 text-2xl font-bold">ISU Robotics</h1>
         </div>
         <div class="flex gap-x-16">
           <a
             href="/vexSite/templates/home.html"
-            class="text-red-600 hover:text-red-800 text-2xl"
+            class="text-yellow-500 hover:text-yellow-600 text-2xl font-semibold"
             >Home</a
           >
           <a
             href="/vexSite/templates/sponsors.html"
-            class="text-red-600 hover:text-red-800 text-2xl"
+            class="text-yellow-500 hover:text-yellow-600 text-2xl font-semibold"
             >Sponsors</a
           >
           <a
             href="/vexSite/templates/contact.html"
-            class="text-red-600 hover:text-red-800 text-2xl"
+            class="text-yellow-500 hover:text-yellow-600 text-2xl font-semibold"
             >Contact</a
           >
           <a
             href="https://www.stuorg.iastate.edu/auth/login?REDIR=/site/isuroboticsclub/join"
-            class="text-red-600 hover:text-red-800 text-2xl"
+            class="text-yellow-500 hover:text-yellow-600 text-2xl font-semibold"
             >Join</a
           >
         </div>
       </nav>
       <div class="flex justify-center items-center text-center h-1/2 w-full">
-        <h1 class="text-7xl font-bold text-red-600">Sponsors</h1>
+        <h1
+          class="text-7xl font-bold text-yellow-400 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]"
+        >
+          Sponsors
+        </h1>
       </div>
     </div>
   </header>
@@ -58,16 +64,86 @@
     <h1 class="text-3xl font-bold text-black max-w-2xl text-center">
       A formal thank you to our respected sponsors. We truly appreciate your
       integral role in our success.
-    </h1>
-    <h1 class="text-xl text-blue-600 text-center">
-      <a href="../static/dist/Sponsor_Packet_0.0.1.pdf" target="_blank"
-        >Download our Sponsor Packet if you are interesting in sponsoring us</a
-      >
       <hr />
       <br />
     </h1>
   </div>
-  <div class="flex flex-col items-center justify-center text-center">
+  <div class="flex flex-col">
+    <div class="flex justify-center p-5">
+      <div class="relative hover:scale-110">
+        <img
+          src="../static/dist/robotics_logo.png"
+          alt="ISU"
+          class="max-h-80 w-auto"
+        />
+      </div>
+      <div class="relative hover:scale-110">
+        <img
+          src="../static/dist/robotics_logo.png"
+          alt="ISU"
+          class="max-h-80 w-auto"
+        />
+      </div>
+      <div class="relative hover:scale-110">
+        <img
+          src="../static/dist/robotics_logo.png"
+          alt="ISU"
+          class="max-h-80 w-auto"
+        />
+      </div>
+    </div>
+    <div class="flex justify-center p-5">
+      <div class="relative hover:scale-110">
+        <img
+          src="../static/dist/robotics_logo.png"
+          alt="ISU"
+          class="max-h-80 w-auto"
+        />
+      </div>
+      <div class="relative hover:scale-110">
+        <img
+          src="../static/dist/robotics_logo.png"
+          alt="ISU"
+          class="max-h-80 w-auto"
+        />
+      </div>
+      <div class="relative hover:scale-110">
+        <img
+          src="../static/dist/robotics_logo.png"
+          alt="ISU"
+          class="max-h-80 w-auto"
+        />
+      </div>
+    </div>
+  </div>
+  <div class="flex items-center justify-center">
+    <p class="text-xl text-center text-black max-w-2xl">
+      The Robotics Club is always looking for funding. Most goes to building
+      projects, outreach towards our local community, and our general club
+      upkeep. We are always grateful to individuals and companies for their
+      continuous support.
+      <br />
+      <br />
+    </p>
+  </div>
+  <div class="flex items-center justify-center">
+    <p class="text-xl text-center text-black max-w-2xl">
+      If you are interested in sponsoring us, please reach out to us at the
+      email below.
+    </p>
+  </div>
+  <br />
+  <div class="flex justify-center">
+    <button
+      class="bg-red-600 hover:bg-red-800 text-white font-bold py-2 px-4 rounded-full"
+    >
+      <a href="mailto:cklop@iastate.edu"> Caken K. - Outreach Lead </a>
+    </button>
+  </div>
+  <!--
+    <div
+    class="flex flex-col items-center justify-center text-center"
+  >
     <h1 class="text-3xl text-blue-500">
       Platinum Sponsors
       <hr />
@@ -165,4 +241,5 @@
       />
     </div>
   </div>
+  -->
 </html>

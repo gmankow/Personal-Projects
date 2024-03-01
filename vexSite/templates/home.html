@@ -12,10 +12,12 @@
       class="w-full bg-cover bg-center"
       style="
         height: 34rem;
-        background-image: url(../static/dist/header_img.jpg);
+        background-image: url(../static/dist/home_header_img.jpg);
       "
     >
-      <nav class="mx-auto flex items-center p-5">
+      <nav
+        class="mx-auto flex items-center p-5 backdrop-brightness-50 backdrop-blur-sm"
+      >
         <div class="flex-initial">
           <img
             src="../static/dist/robotics_logo.png"
@@ -24,27 +26,27 @@
           />
         </div>
         <div class="flex-grow">
-          <h1 class="text-red-600 text-2xl font-bold">VEX Robotics</h1>
+          <h1 class="text-yellow-500 text-2xl font-bold">ISU Robotics</h1>
         </div>
         <div class="flex gap-x-16">
           <a
             href="/vexSite/templates/home.html"
-            class="text-red-600 hover:text-red-800 text-2xl"
+            class="text-yellow-500 hover:text-yellow-600 text-2xl font-semibold"
             >Home</a
           >
           <a
             href="/vexSite/templates/sponsors.html"
-            class="text-red-600 hover:text-red-800 text-2xl"
+            class="text-yellow-500 hover:text-yellow-600 text-2xl font-semibold"
             >Sponsors</a
           >
           <a
             href="/vexSite/templates/contact.html"
-            class="text-red-600 hover:text-red-800 text-2xl"
+            class="text-yellow-500 hover:text-yellow-600 text-2xl font-semibold"
             >Contact</a
           >
           <a
             href="https://www.stuorg.iastate.edu/auth/login?REDIR=/site/isuroboticsclub/join"
-            class="text-red-600 hover:text-red-800 text-2xl"
+            class="text-yellow-500 hover:text-yellow-600 text-2xl font-semibold"
             >Join</a
           >
         </div>
@@ -54,65 +56,90 @@
   <div class="flex justify-center">
     <h1 class="text-3xl font-bold text-black">
       Our Program
-      <hr />
+      <br />
       <br />
     </h1>
   </div>
   <div class="flex flex-col items-center justify-center text-center">
     <p class="text-xl text-gray-600 max-w-4xl">
-      The Iowa State VEX U Robotics Club is an Iowa State University Club that
-      strives to provide STEM opportunities and further STEM education to all
-      students regardless of level of knowledge or socioeconomic status. One
-      such avenue is through our competitive robotics team. We introduce and
-      foster students' knowledge of various soft skills (teamwork,
-      documentation, communication, networking, etc.) and hard skills (CAD,
-      programming, design). Robotics is a fun, engaging, and hands-on activity
-      where students of all skill levels will thrive! <br /><br />
+      The Robotics Club at Iowa State University is focused on bringing
+      technical knowledge and interest in robotics to students at Iowa State
+      University. We participate in competitions and outreach events at local
+      schools and on the ISU campus. <br /><br />
 
-      The Iowa State VEX U Robotics Club prides itself on our ability to educate
-      members on and off the team. One such path is through High School
-      mentorship. Currently, the Iowa State Vex U Robotics Club actively mentors
-      high school teams to further educate and provide new and enriching
-      opportunities to students of all skill levels. <br /><br />
-
-      The Iowa State VEX U Robotics Club engages itself with numerous volunteer
-      opportunities. One such opportunity is through volunteering at VEX U
-      tournaments. VEX U tournaments rely heavily on volunteers to make events
-      successful and efficient. The Iowa State Vex U Robotics Team Prides Itself
-      greatly on our ability to volunteer at these events and beyond.
-      <br /><br />
+      Robotics Club is open to anyone with an interest in robotics--no prior
+      experience required! We hold general meetings once a month, and projects
+      generally meet on a weekly basis depending on the projects needs and
+      members' availability. During general meetings, we'll give an overview of
+      our projects, cover some broad engineering and career topics, and invite
+      guest speakers throughout the semester. <br /><br />
     </p>
   </div>
   <div class="flex justify-center">
     <h1 class="text-3xl font-bold text-black">
-      What is Vex U
-      <hr />
+      Current Projects
+      <br />
       <br />
     </h1>
   </div>
-  <div class="flex flex-col items-center justify-center text-center">
-    <p class="text-xl text-gray-600 max-w-4xl">
-      In VEX U, teams of college students design, build, and program robots to
-      compete in a specific game or challenge that changes each year. The
-      competition is organized by the Robotics Education & Competition (REC)
-      Foundation. Participants use the VEX EDR (Educational Design and Robotics)
-      platform, which includes a variety of hardware components, including the
-      VEX Robotics kits and electronics. <br /><br />
-
-      Teams are required to strategize, collaborate, and innovate to create
-      robots that can perform specific tasks outlined in the competition game.
-      The VEX U competitions aim to foster creativity, problem-solving skills,
-      and teamwork among university students while providing hands-on experience
-      in robotics engineering. <br /><br />
-
-      Each year, the competition introduces a new game, and teams must adapt
-      their robots to meet the challenges posed by the game's objectives. This
-      dynamic aspect of the competition keeps participants engaged and
-      encourages them to continually improve their robot designs and programming
-      skills. VEX U competitions are part of a broader effort to promote STEM
-      (Science, Technology, Engineering, and Mathematics) education and provide
-      students with practical experience in engineering and robotics.
-      <br /><br />
-    </p>
+  <div class="flex items-center justify-center text-center">
+    <div class="flex-col max-w-4xl">
+      <div class="flex outline outline-black m-2 bg-yellow-500 hover:scale-105">
+        <div class="flex w-full h-80">
+          <img
+            src="../static/dist/snowplow2.jpg"
+            alt="autonomous snowplow"
+            class="w-full h-auto fit-cover"
+          />
+        </div>
+        <div class="flex flex-col">
+          <h2 class="text-2xl font-bold text-black">Autonomous Snowplow</h2>
+          <br />
+          <p class="text-xl text-gray-600 max-w-4xl">
+            Autonomous Snowplow is tasked with clearing a predetermined area of
+            snow without any human input; they can only use algorithms, computer
+            vision, and additional sensors. They recently rebuilt the drive
+            train.
+          </p>
+        </div>
+      </div>
+      <div class="flex outline outline-black m-2 bg-yellow-500 hover:scale-105">
+        <div class="flex w-full h-80">
+          <img
+            src="../static/dist/battlebot.png"
+            alt="combat robots"
+            class="w-full h-auto fit-cover"
+          />
+        </div>
+        <div class="flex flex-col">
+          <h2 class="text-2xl font-bold text-black">Combat Robots</h2>
+          <br />
+          <p class="text-xl text-gray-600 max-w-4xl">
+            Combat has been working on their 30-lb robot. Combat Robots are
+            scored on their bot's aggression, defensive abilities, and overall
+            design. The last bot left standing wins!
+          </p>
+        </div>
+      </div>
+      <div class="flex outline outline-black m-2 bg-yellow-500 hover:scale-105">
+        <div class="flex w-full h-80">
+          <img
+            src="../static/dist/exo.jpg"
+            alt="exosuit"
+            class="w-full h-auto fit-cover"
+          />
+        </div>
+        <div class="flex flex-col">
+          <h2 class="text-2xl font-bold text-black">Exo-Skeleton Suit</h2>
+          <br />
+          <p class="text-xl text-gray-600 max-w-4xl">
+            Our ExoSuit project is meant to provide external support to
+            first-responders, increasing possible weight lifted and extending
+            the time before physical exhaustion. In competition, the team will
+            be scored on design, an obstacle course, and efficiency.
+          </p>
+        </div>
+      </div>
+    </div>
   </div>
 </html>
