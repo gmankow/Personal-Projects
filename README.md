@@ -5,7 +5,7 @@ Contains all the projects I have worked on or am currently working on.
 Iowa State's First Datathon. Analyzed traffic data to find the average speed increase of cars near semi-trucks. The project won 3rd place at the event.
 - Teammates: Roman Gerst, Jacob Page, Myself
 
-## Robotics Site
+## Robotics Site (in progress)
 Website for Iowa States  Robotics Club using Tailwind CSS. Currently contains a main, sponsorship, and contact page. App.py currently does not run the site; to run, use the live server extension on VSCode.
 
 ## Connect 4
