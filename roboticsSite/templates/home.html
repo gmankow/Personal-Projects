@@ -4,7 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ISU Vex U</title>
+    <title>ISU Robotics</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../static/dist/robotics_logo.png"
+    />
     <link rel="stylesheet" href="../static/dist/css/output.css" />
   </head>
   <header class="bg-white">
@@ -12,35 +17,35 @@
       class="w-full bg-cover bg-center"
       style="
         height: 34rem;
-        background-image: url(../static/dist/home_header_img.jpg);
+        background-image: url(../static/dist/battlebot2.jpg);
       "
     >
       <nav
         class="mx-auto flex items-center p-5 backdrop-brightness-50 backdrop-blur-sm"
       >
-        <div class="flex-initial">
+        <div class="flex-initial invisible sm:visible">
           <img
             src="../static/dist/robotics_logo.png"
             alt="logo"
             class="h-16 w-auto"
           />
         </div>
-        <div class="flex-grow">
+        <div class="flex-grow invisible sm:visible">
           <h1 class="text-yellow-500 text-2xl font-bold">ISU Robotics</h1>
         </div>
-        <div class="flex gap-x-16">
+        <div class="md:flex md:gap-x-16">
           <a
-            href="/vexSite/templates/home.html"
+            href="/roboticsSite/templates/home.html"
             class="text-yellow-500 hover:text-yellow-600 text-2xl font-semibold"
             >Home</a
           >
           <a
-            href="/vexSite/templates/sponsors.html"
+            href="/roboticsSite/templates/sponsors.html"
             class="text-yellow-500 hover:text-yellow-600 text-2xl font-semibold"
             >Sponsors</a
           >
           <a
-            href="/vexSite/templates/contact.html"
+            href="/roboticsSite/templates/contact.html"
             class="text-yellow-500 hover:text-yellow-600 text-2xl font-semibold"
             >Contact</a
           >
@@ -84,8 +89,11 @@
   </div>
   <div class="flex items-center justify-center text-center">
     <div class="flex-col max-w-4xl">
-      <div class="flex outline outline-black m-2 bg-yellow-500 hover:scale-105">
-        <div class="flex w-full h-80">
+      <button
+        class="flex outline outline-black m-2 bg-yellow-500 hover:scale-105"
+        onclick="window.location.href='/roboticsSite/templates/snowplow.html'"
+      >
+        <div class="flex w-0 h-80 invisible sm:visible sm:w-full">
           <img
             src="../static/dist/snowplow2.jpg"
             alt="autonomous snowplow"
@@ -102,9 +110,12 @@
             train.
           </p>
         </div>
-      </div>
-      <div class="flex outline outline-black m-2 bg-yellow-500 hover:scale-105">
-        <div class="flex w-full h-80">
+      </button>
+      <button
+        class="flex outline outline-black m-2 bg-yellow-500 hover:scale-105"
+        onclick="window.location.href='/roboticsSite/templates/battlebot.html'"
+      >
+        <div class="flex w-0 h-80 invisible sm:visible sm:w-full">
           <img
             src="../static/dist/battlebot.png"
             alt="combat robots"
@@ -120,9 +131,12 @@
             design. The last bot left standing wins!
           </p>
         </div>
-      </div>
-      <div class="flex outline outline-black m-2 bg-yellow-500 hover:scale-105">
-        <div class="flex w-full h-80">
+      </button>
+      <button
+        class="flex outline outline-black m-2 bg-yellow-500 hover:scale-105"
+        onclick="window.location.href='/roboticsSite/templates/exo.html'"
+      >
+        <div class="flex w-0 h-80 invisible sm:visible sm:w-full">
           <img
             src="../static/dist/exo.jpg"
             alt="exosuit"
@@ -139,7 +153,7 @@
             be scored on design, an obstacle course, and efficiency.
           </p>
         </div>
-      </div>
+      </button>
     </div>
   </div>
 </html>
